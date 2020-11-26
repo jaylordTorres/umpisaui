@@ -5,9 +5,9 @@ import '../../UiTheme.dart';
 import '../UiButtonConstant.dart';
 
 Map<UiButtonSize, double> uiButtonTextFontSizes = {
-  UiButtonSize.lg: UiFontSizes.md,
-  UiButtonSize.md: UiFontSizes.sm,
-  UiButtonSize.sm: UiFontSizes.xs
+  UiButtonSize.lg: UiFontSizes.lg,
+  UiButtonSize.md: UiFontSizes.md,
+  UiButtonSize.sm: UiFontSizes.sm
 };
 
 double getUiButtonTextFontSize({

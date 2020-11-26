@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../UiTheme.dart';
-import '../../core.dart';
+import '../../text/UiTextConstant.dart';
+import '../UiButtonConstant.dart';
 
 // COLORS
 // highlight text

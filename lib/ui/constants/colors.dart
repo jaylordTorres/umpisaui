@@ -17,7 +17,8 @@ class UiColors {
   static final Color warning = Color.fromRGBO(229, 158, 14, 1);
   static final Color warningAccent = Color.fromRGBO(255, 176, 16, 0.16);
 
-  static final Color alert = Color.fromRGBO(225, 72, 56, 1);
+  // static final Color alert = Color.fromRGBO(225, 72, 56, 1);
+  static final Color alert = Colors.pink;
   static final Color alertAccent = Color.fromRGBO(225, 72, 56, 0.16);
   static final Color backgroundNone = Colors.white; // default
   static final Color none = null; // default

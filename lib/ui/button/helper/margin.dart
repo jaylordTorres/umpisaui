@@ -4,9 +4,9 @@ import '../../UiTheme.dart';
 import '../UiButtonConstant.dart';
 
 Map<UiButtonMargin, EdgeInsetsGeometry> uiButtonMargin = {
-  UiButtonMargin.lg: EdgeInsets.all(24.0),
-  UiButtonMargin.md: EdgeInsets.all(8.0),
-  UiButtonMargin.sm: EdgeInsets.all(5.0),
+  UiButtonMargin.lg: EdgeInsets.symmetric(vertical: 24.0),
+  UiButtonMargin.md: EdgeInsets.symmetric(vertical: 8.0),
+  UiButtonMargin.sm: EdgeInsets.symmetric(vertical: 5.0),
 };
 
 EdgeInsetsGeometry getUiButtonMargin({
