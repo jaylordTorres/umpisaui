@@ -7,3 +7,8 @@ enum RuiButtonType {
   noneSecondary, // like text
   forth, // small button
 }
+
+// variant/color/size
+enum RuiTextFieldType {
+  underlinePrimary, // primary
+}
