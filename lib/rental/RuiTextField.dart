@@ -6,6 +6,8 @@ import 'package:umpui/ui/constants/colors.dart';
 class RuiTextField extends StatelessWidget {
   static String name = 'RuiTextField';
   final String labelText;
+  final String helperText;
+  final String hintText;
   final TextEditingController controller;
   final String Function(String) validator;
   final TextInputType keyboardType;
@@ -16,6 +18,8 @@ class RuiTextField extends StatelessWidget {
       this.controller,
       this.validator,
       this.keyboardType,
+      this.helperText,
+      this.hintText,
       this.type = RuiTextFieldType.underlinePrimary})
       : super(key: key);
 
@@ -39,6 +43,8 @@ class RuiTextField extends StatelessWidget {
         validator: this.validator,
         keyboardType: this.keyboardType,
         decoration: InputDecoration(
+          hintText: this.hintText,
+          helperText: this.helperText,
           labelText: this.labelText,
           contentPadding: EdgeInsets.symmetric(vertical: 20),
           focusedBorder: UnderlineInputBorder(

@@ -12,3 +12,9 @@ enum RuiButtonType {
 enum RuiTextFieldType {
   underlinePrimary, // primary
 }
+
+// variant/color/size
+enum RuiTextType {
+  appBarTitle, // primary
+  body,
+}

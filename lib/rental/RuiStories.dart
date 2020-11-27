@@ -3,6 +3,7 @@ import 'package:storybook_flutter/storybook_flutter.dart';
 
 import 'RuiButtonStories.dart';
 import 'RuiTextFieldStories.dart';
+import 'RuiTextStories.dart';
 
 void main() {
   runApp(RuiStoriesScreen());
@@ -19,6 +20,7 @@ class RuiStoriesScreen extends StatelessWidget {
       children: [
         ...ruiButtonStories,
         ...ruiTextFieldStories,
+        ...ruiTextStories,
       ],
     );
   }
