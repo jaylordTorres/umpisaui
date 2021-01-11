@@ -13,11 +13,17 @@ dependencies:
   flutter:
     sdk: flutter
   storybook_flutter: ^0.1.5
+   # TODO: this version need to update
+  flutter_bloc: ^4.0.1
+  # TODO: need to replace with hives
+  shared_preferences: ^0.5.4+8
+  equatable: ^1.2.5
+  dio: ^3.0.10
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
